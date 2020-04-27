@@ -33,7 +33,7 @@ pipeline {
 
     stage('SendMail') {
       steps {
-        emailext(subject: '$DEFAULT_SUBJECT', body: '$DEFAULT_CONTENT', attachLog: true, compressLog: true, postsendScript: '$DEFAULT_POSTSEND_SCRIPT', presendScript: '$DEFAULT_PRESEND_SCRIPT', replyTo: '1016570682@qq.com', to: '1016570682@qq.com', from: '929457098@qq.com')
+        emailext(subject: '$DEFAULT_SUBJECT', body: '$DEFAULT_CONTENT', attachLog: true, compressLog: true, postsendScript: '$DEFAULT_POSTSEND_SCRIPT', presendScript: '$DEFAULT_PRESEND_SCRIPT', replyTo: '', to: '1016570682@qq.com', from: '929457098@qq.com')
       }
     }
 
