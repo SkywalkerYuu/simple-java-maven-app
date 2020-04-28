@@ -89,13 +89,13 @@ pipeline {
 				'## 二级标题',
 				'### 三级标题',
 				'#### 四级标题',
-				'* 列表1',
-				'* 列表2',
-				'* 列表3',
-				'* 列表4',
+				'- 列表1',
+				'- 列表2',
+				'- 列表3',
+				'- 列表4',
 				'[链接测试](http://www.baidu.com)',
 				'![图片链接](http://5b0988e595225.cdn.sohucs.com/images/20190112/a5bb4d5f621d4a15a42b54f3817ae9ad.jpeg)',
-				'**_<font color='red' size=4>格式文字</font>_**'
+				'**_<font color=red size=4>格式文字</font>_**'
 			],
 			picUrl: 'http://icons.iconarchive.com/icons/paomedia/small-n-flat/1024/sign-check-icon.png',
 	}
