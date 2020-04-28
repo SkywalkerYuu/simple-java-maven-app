@@ -97,7 +97,7 @@ pipeline {
 				'![图片链接](http://5b0988e595225.cdn.sohucs.com/images/20190112/a5bb4d5f621d4a15a42b54f3817ae9ad.jpeg)',
 				'**_<font color=red size=4>格式文字</font>_**'
 			],
-			picUrl: 'http://icons.iconarchive.com/icons/paomedia/small-n-flat/1024/sign-check-icon.png',
+			picUrl: 'http://icons.iconarchive.com/icons/paomedia/small-n-flat/1024/sign-check-icon.png'
 	}
-  }
+    }
 }
