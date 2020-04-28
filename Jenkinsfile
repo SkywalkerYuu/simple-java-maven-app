@@ -98,6 +98,7 @@ pipeline {
 				'**_<font color=red size=4>格式文字</font>_**'
 			],
 			picUrl: 'http://icons.iconarchive.com/icons/paomedia/small-n-flat/1024/sign-check-icon.png'
+		)
 	}
     }
 }
