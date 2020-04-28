@@ -38,7 +38,7 @@ pipeline {
 		echo '开始构建'
 		dingTalk(
 			robot: '35ec4006-298f-41da-ab4d-8595198496b3',
-			type: 'TEXT'
+			type: 'TEXT',
 			text:[
 				"开始构建",
 				"这里是构建信息"
@@ -95,7 +95,7 @@ pipeline {
 				'* 列表4',
 				'[链接测试](http://www.baidu.com)',
 				'![图片链接](http://5b0988e595225.cdn.sohucs.com/images/20190112/a5bb4d5f621d4a15a42b54f3817ae9ad.jpeg)',
-				'**<font color='red' size=4>格式文字</font>**'
+				'**_<font color='red' size=4>格式文字</font>_**'
 			],
 			picUrl: 'http://icons.iconarchive.com/icons/paomedia/small-n-flat/1024/sign-check-icon.png',
 	}
